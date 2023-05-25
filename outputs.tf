@@ -45,6 +45,10 @@ output "vm_name" {
   value = var.vm_name
 }
 
+output "os_name" {
+  value = var.os_name
+}
+
 output "computer_name" {
   value = var.computer_name
 }
