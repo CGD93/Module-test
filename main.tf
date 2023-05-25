@@ -66,7 +66,7 @@ resource "azurerm_virtual_machine" "VM" {
     }
 
     storage_os_disk {
-      name                  = "os-A"
+      name                  = var.os_name[count.index]
       caching               = "ReadWrite"
       create_option         = "FromImage"
       managed_disk_type     = "Premium_LRS"
