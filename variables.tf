@@ -14,6 +14,7 @@ variable "Public_ip_name" {}
 variable "Static_NIC_name" {}
 variable "private_ip_add" {}
 variable "vm_name" {}
+variable "os_name" {}
 variable "computer_name" {}
 variable "user_name" {}
 variable "user_password" {}
